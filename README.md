@@ -253,10 +253,10 @@ The notebook is designed to run on **Google Colab with a T4/A100 GPU**. Training
 
 This model was intentionally trained on a small dataset as a **proof of concept** and architecture validation exercise. The primary goal was to:
 
-- Verify that the VQ-VAE codebook collapse issue from v2 is resolved ✅
-- Confirm that the PatchGAN discriminator activates and stabilizes correctly ✅
-- Validate that the Causal Transformer can learn a meaningful token distribution ✅
-- End-to-end test the text-conditioning pipeline with Llama-3.2 + LoRA ✅
+- Verify that the VQ-VAE codebook collapse issue from v2 is resolved 
+- Confirm that the PatchGAN discriminator activates and stabilizes correctly 
+- Validate that the Causal Transformer can learn a meaningful token distribution 
+- End-to-end test the text-conditioning pipeline with Llama-3.2 + LoRA 
 
 All of these goals were achieved. The generation quality will scale with dataset size — the architecture is sound, the training pipeline is validated, and the next step is simply data collection.
 
